@@ -1,0 +1,167 @@
+/*==================================
+Theme Color All Codes Variable
+==================================*/
+
+:root {
+    --theme-general-color: #828282;
+    /* theme general color ok*/
+}
+
+:root {
+    --theme-primary-color: #8bb867;
+    /* theme primary color ok*/
+}
+
+:root {
+    --theme-secondary-color: #2f2f2f;
+    /* theme secondary color ok*/
+}
+
+:root {
+    --theme-white-color: #ffffff;
+    /* theme white font color ok*/
+}
+
+:root {
+    --theme-gray-color: #f7f7f7;
+    /* theme gray font color ok*/
+}
+
+:root {
+    --theme-light-color: #ebf4ff;
+    /* theme light gray color */
+}
+
+:root {
+    --theme-text-gray: #ffd5cc;
+    /* theme text gray color*/
+}
+
+:root {
+    --theme-extra1-color: #444444;
+    /* theme extra1  color */
+}
+
+:root {
+    --theme-extra2-color: #434343;
+    /* theme extra2  color */
+}
+
+:root {
+    --theme-extra3-color: #cdcdcd;
+    /* theme extra3  color*/
+}
+
+:root {
+    --theme-extra4-color: #e0e2e4;
+    /* theme extra4  color*/
+}
+
+:root {
+    --theme-extra5-color: #e8e8e8;
+    /* theme extra5  color*/
+}
+
+:root {
+    --theme-dark-color: #171614;
+    /* theme dark color */
+}
+
+:root {
+    --theme-footer-color: #21222a;
+    /* theme footer color */
+}
+
+:root {
+    --theme-primary-opacity-color: rgba(234, 196, 59, .5);
+    /* theme secondary color*/
+}
+
+:root {
+    --theme-secondary-opacity-color: rgba(42, 50, 112, .8);
+    /* theme secondary color */
+}
+
+:root {
+    --theme-extra1-opacity-color: rgba(34, 144, 135, .8);
+    /* theme secondary color*/
+}
+
+:root {
+    --theme-extra2-opacity-color: rgba(29, 45, 58, .8);
+    /* theme secondary color*/
+}
+
+
+/*==================================
+Font Variable
+==================================*/
+
+:root {
+    --theme-general-font: 'Roboto', sans-serif;
+    /* Font use for normal text and general text */
+}
+
+:root {
+    --theme-highlight-font: 'Barlow Condensed', sans-serif;
+    /* Font used in title or special area */
+}
+
+:root {
+    --theme-hiperlink-font: 'Roboto', sans-serif;
+    /* Font use for normal text and link text */
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    font-family: var(--theme-highlight-font);
+    color: var(--theme-dark-color);
+}
+
+h1,
+.h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+h2,
+.h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+h3,
+.h3 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h4,
+.h4 {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+h5,
+.h5 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+h6,
+.h6 {
+    font-size: 22px;
+    font-weight: 500;
+}

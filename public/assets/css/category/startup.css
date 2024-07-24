@@ -1,0 +1,204 @@
+/*==================================
+Theme Color All Codes Variable
+==================================*/
+
+:root {
+    --theme-general-color: #67696e;
+    /* theme general font color ok*/
+}
+
+:root {
+    --theme-primary-color: #ff8557;
+    /* theme primary color ok*/
+}
+
+:root {
+    --theme-secondary-color: #283742;
+    /* theme secondary color ok*/
+}
+
+:root {
+    --theme-white-color: #fff;
+    /* theme white font color ok*/
+}
+
+:root {
+    --theme-light-color: #f7f9ff;
+    /* theme light gray color ok*/
+}
+
+:root {
+    --theme-gray-color: #e6e6ec;
+    /* theme gray color ok*/
+}
+
+:root {
+    --theme-extra1-color: #0064b5;
+    /* theme extra1 color ok*/
+}
+
+:root {
+    --theme-extra2-color: #4200ff;
+    /* theme extra2 color ok*/
+}
+
+:root {
+    --theme-success-color: #24bd7e;
+    /* theme success color ok*/
+}
+
+:root {
+    --theme-footer-color: #091b4b;
+    /* theme dark color */
+}
+
+:root {
+    --theme-dark-color: #091b4b;
+    /* theme dark color */
+}
+
+:root {
+    --text-light-color: #a3a7af;
+    /* Light text color to use in dark area */
+}
+
+:root {
+    --theme-primary-opacity-color: rgba(11, 191, 141, .8);
+    /* theme secondary color */
+}
+
+:root {
+    --theme-secondary-opacity-color: rgba(10, 34, 102, .8);
+    /* theme secondary color */
+}
+
+:root {
+    --theme-white-opacity-color: rgba(255, 255, 255, 0.3);
+    /* theme light color */
+}
+
+
+/*==================================
+Font Variable
+==================================*/
+
+:root {
+    --theme-general-font: 'Quicksand', sans-serif;
+    /* Font use for normal text and general text ok*/
+}
+
+:root {
+    --theme-hiperlink-font: 'Roboto', sans-serif;
+    /* Font use for normal text and general text */
+}
+
+:root {
+    --theme-highlight-font: 'Barlow Condensed', sans-serif;
+    /* Font used in title or special area ok*/
+}
+
+body {
+    font-weight: 500;
+}
+
+.fact-counter .progress {
+    height: 5px;
+    border-radius: 3;
+}
+
+.fact-counter .progress,
+.progress-bar {
+    border-radius: 3px;
+}
+
+h1,
+.h1 {
+    font-size: 48px;
+    font-weight: 600
+}
+
+h2,
+.h2 {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+h3,
+.h3 {
+    font-weight: 600;
+}
+
+.tagline {
+    font-weight: 600;
+    font-size: 18px;
+    font-family: var(--theme-highlight-font);
+}
+
+.newslatter-widget .subscribe-widget {
+    position: relative
+}
+
+.newslatter-widget .subscribe-widget input {
+    padding: 8px 100px 8px 15px;
+}
+
+.newslatter-widget .subscribe-widget .btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0 15px 0 0;
+}
+
+.copyright .container {
+    border-top: 1px solid var(--theme-gray-color)
+}
+
+footer {
+    font-size: 14px;
+}
+
+.account-create .container {
+    padding: 100px 30px;
+}
+
+.social-on-slider-left::before,
+.social-on-slider-left::after {
+    background-color: var(--theme-general-color) !important
+}
+
+.social-on-slider-left a:hover {
+    color: var(--theme-primary-color) !important
+}
+
+.time-count.counting-box li span:first-child {
+    color: var(--theme-secondary-color);
+    position: relative;
+    padding-right: 20px;
+    font-family: var(--theme-general-font);
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.time-count.counting-box li span::after {
+    position: absolute;
+    content: ":";
+    top: 0;
+    right: 0;
+    color: var(--theme-secondary-color);
+    font-weight: 700;
+}
+
+.time-count.counting-box li:last-child span {
+    padding-right: 0;
+}
+
+.time-count.counting-box li span:last-child,
+.time-count.counting-box li:last-child span::after {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .account-create .container {
+        padding: 100px;
+    }
+}

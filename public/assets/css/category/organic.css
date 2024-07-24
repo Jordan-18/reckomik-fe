@@ -1,0 +1,225 @@
+/*==================================
+Theme Color All Codes Variable
+==================================*/
+:root {
+	 --theme-general-color: #63676d;  /* theme general font color */
+}
+:root {
+	 --theme-primary-color: #80ba3c;  /* theme primary color */
+}
+:root {
+	 --theme-secondary-color: #252a32;  /* theme secondary color */
+}
+:root {
+	 --theme-white-color: #fff;  /* theme white font color */
+}
+:root {
+	 --theme-light-color: #f5f9f3;  /* theme light gray color */
+}
+:root {
+	 --theme-gray-color: #f9f9f9;  /* theme gray color */
+}
+:root {
+	 --theme-footer-color: #212224;  /* theme dark color ok */
+}
+:root {
+	 --theme-dark-color: #181a1d;  /* theme dark color ok */
+}
+:root {
+	 --theme-extra-color: #f2cb30;  /* theme extra color */
+}
+:root {
+	 --text-light-color: #ced6c6;  /* Light text color to use in dark area */
+}
+:root {
+	 --theme-primary-opacity-color: rgba(128, 186, 60, .8);  /* theme secondary color */
+}
+:root {
+	 --theme-secondary-opacity-color: rgba(37, 42, 50, .8);  /* theme secondary color */
+}
+:root {
+	 --theme-dark-opacity-color: rgba(16, 37, 102, .7);  /* theme Dark color */
+}
+:root {
+	 --theme-white-opacity-color: rgba(255, 255, 255, 0.7);  /* theme light color */
+}
+:root {
+	 --theme-border-color: #eeeff3; /* theme border color */
+}
+
+/*==================================
+Font Variable
+==================================*/
+:root {
+	 --theme-general-font: 'Nunito', sans-serif; /* Font use for normal text and general text */
+}
+:root {
+	 --theme-hiperlink-font: 'Barlow', sans-serif; /* Font use for normal text and general text */
+}
+:root {
+	 --theme-highlight-font: 'Barlow', sans-serif;  /* Font used in title or special area */
+}
+:root {
+	 --theme-extra-font: 'Damion', cursive;  /* Font used in title or special area */
+}
+
+.hover-classic-layer::before {
+	background-color: var(--theme-primary-color);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+	font-size: 15px;
+	font-weight: 500
+}
+.top-header {
+    font-size: 14px;
+}
+body {
+	font-size: 15px
+}
+.sub-title {
+	font-size: 18px;
+	font-weight: 400
+}
+.form-control {
+	font-weight: 500;
+	font-size: 13px;
+	border-radius: 25px;
+	line-height: 46px;
+	height: 46px;
+}
+.btn-link,
+.btn {
+	font-weight: 500;
+	font-size: 13px;
+	border-radius: 25px;
+	text-transform: uppercase;
+	line-height: 46px
+}
+.btn-secondary {
+	line-height: 46px;
+	height: 46px;
+}
+.btn-primary {
+	border: 2px solid;
+	line-height: 42px;
+	height: 46px;
+	background-color: transparent;
+	color: var(--theme-primary-color);
+	border-color: var(--theme-primary-color)
+}
+.btn-white {
+	border: 2px solid;
+	line-height: 42px;
+	height: 46px;
+	background-color: transparent;
+	color: var(--theme-white-color);
+	border-color: var(--theme-white-color)
+}
+.btn-white:hover {
+	background-color: #fff;
+	color: var(--theme-secondary-color);
+}
+.rounded-lg {
+	border-radius: 25px !important
+}
+.time-count li span{
+	color: var(--theme-dark-color);
+	font-weight: 500;
+	font-size: 13px;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 100%;
+	background-color: var(--theme-primary-color);
+	display: block
+}
+.divider-col-3 > div {
+	border-color: #eaeff5
+}
+.woocommerce-product .product-img {
+	background-color: transparent
+}
+.product-detail .woocommerce-loop-product__title {
+	font-family: var(--theme-highlight-font);
+	margin-bottom: 15px
+}
+.product-detail .price .woocommerce-Price-amount {
+	font-family: var(--theme-highlight-font);
+	font-weight: 500;
+	font-size: 17px;
+	color: var(--theme-primary-color)
+}
+.product-img span {
+	right: inherit;
+	font-family: var(--theme-highlight-font);
+	font-size: 14px;
+	padding: 0px 8px;
+	left: 0;
+	top: -3px
+}
+.nav-tab-border-active li {
+	border: 2px solid;
+	border-color: transparent;
+	border-radius: 20px
+}
+.nav-tab-border-active .mixitup-control-active {
+	border: 2px solid;
+	border-color: var(--theme-primary-color);
+	border-radius: 20px
+}
+.mix-tab ul li, .tab-simple ul li {
+	padding: 5px 25px
+}
+.add_to_cart_button {
+	line-height: 32px;
+    display: block;
+    text-align: center;
+	padding: 0 20px;
+    font-size: 13px;
+    font-family: var(--theme-hiperlink-font);
+    background-color: transparent;
+    color: var(--theme-primary-color);
+    width: auto;
+	margin: 0 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+    visibility: visible;
+    opacity: 1;
+    position: static;
+	border-radius: 18px;
+	border: 2px solid;
+	border-color: var(--theme-primary-color);
+}
+.organic-product-thumb .button-group {
+	display: inline-flex;
+	margin-top: 15px;
+	text-align: center
+}
+.organic-product-thumb .woo-wishlist {
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	background-color: var(--theme-light-color);
+	display: block;
+	line-height: 36px
+}
+.organic-product-thumb .price {
+	font-family: var(--theme-highlight-font);
+	width: 100%;
+    display: block;
+}
+.organic-product-thumb .woo-wishlist {
+	visibility: hidden;
+	opacity: 0;
+}
+.organic-product-thumb:hover .woo-wishlist {
+	visibility: visible;
+	opacity: 1;
+}
+.organic-product-thumb {
+	border: 1px solid transparent
+}
+.organic-product-thumb:hover {
+	border: 1px solid #dbdbdb
+}
