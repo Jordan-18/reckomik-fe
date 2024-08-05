@@ -3,7 +3,7 @@ import React from 'react'
 function HeaderView() {
     return (
         <header className="classNameic-header bg-primary nav-on-top border-bottom">
-            <div className="main-nav py-3 xs-p-0">
+            <div className="main-nav py-0 xs-p-0">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
@@ -15,12 +15,12 @@ function HeaderView() {
 
                                 <div className="collapse navbar-collapse ms-4 sm-ms-0" id="navbarSupportedContent">
                                     <div className="navbar-nav ms-auto sm-mx-none">
-                                        <div className="search-form header-active-form">
+                                        {/* <div className="search-form header-active-form">
                                             <form action="#" method="post" className="position-relative">
                                                 <input className="form-control rounded-0" type="search" placeholder="What you are looking for?" aria-label="Search" style={{borderRadius: '5px !important'}} />
                                                 <button className="btn-search my-2 my-sm-0" type="submit"><i className="fas fa-search"></i></button>
                                             </form>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </nav>
